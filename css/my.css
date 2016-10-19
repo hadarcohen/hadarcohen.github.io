@@ -286,7 +286,6 @@ font-size: 20px;
     }
 }
 
-.dropdown-backdrop { position: static; }
 
 .active > a {
         background-color: #FAB0D0;
