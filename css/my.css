@@ -285,7 +285,7 @@ font-size: 20px;
         font-size: 1.25em;
     }
 }
-.navbar-default .navbar-toggle .icon-bar {
+.navbar .navbar-toggle .icon-bar {
     background-color: #fff;
 }
 
