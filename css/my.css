@@ -32,31 +32,6 @@ b {
 
 }
 
-.contact {
-    font-size: 22px;
-    text-align: center;
-    border-radius: 25px;
-    background-color: #FAB0D0;
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    position: absolute;
-    top: 8%;
-    right: 12%;
-    padding-top: 35px;
-
-}
-
-.contact a {
-    color: #650038; 
-}
-
-.contact a:hover { 
-    color: white; 
-
-}
 
 .paragraph {
     font-size: 1.25em;
@@ -136,7 +111,7 @@ a:hover
 }
 
 
-.navbar-nav > li > a {padding-top:15px !important; padding-bottom:15px !important;}
+.navbar-nav > li > a {padding-top:10px !important; padding-bottom:10px !important;}
 .navbar {min-height:40px !important; margin-bottom: 40px;}
 
 #myCarousel {
@@ -277,25 +252,16 @@ font-size: 20px;
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
-        color: #fff;
     }
 
     .navbar {
         border-radius: 0;
     }
 
-    .navbar-header {
-        display: none;
-    }
+
 
     .navbar {
         min-height: 0;
-    }
-
-    .navbar-default {
-        border: none;
-        background: #fff;
-        background: rgba(255,255,255,0.9);
     }
 
     .nav>li>a {
@@ -304,7 +270,6 @@ font-size: 20px;
 
     .navbar-nav>li>a {
         line-height: normal;
-
     }
 
      .navbar-nav>li>a:hover {
@@ -319,6 +284,14 @@ font-size: 20px;
         table-layout: fixed;
         font-size: 1.25em;
     }
+}
+
+.active > a {
+        background-color: #FAB0D0;
+        color: #650038;  
+}
+.active:hover > a:hover {
+        color: #fff;  
 }
 
 @media screen and (min-width:1200px) {
