@@ -285,8 +285,9 @@ font-size: 20px;
         font-size: 1.25em;
     }
 }
-.navbar .navbar-toggle .icon-bar {
-    background-color: #fff;
+
+.icon-bar {
+   background-color:#fff !important;
 }
 
 .active > a {
