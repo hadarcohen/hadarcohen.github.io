@@ -286,8 +286,8 @@ font-size: 20px;
     }
 }
 
-.icon-bar {
-   background-color:#fff !important;
+.navbar-toggle, .icon-bar {
+    border:1px solid white;
 }
 
 .active > a {
