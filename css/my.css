@@ -298,6 +298,10 @@ font-size: 20px;
         color: #fff;  
 }
 
+.container {
+    width: 100% !important;
+}
+
 @media screen and (min-width:1200px) {
     .box:after {
         content: '';
