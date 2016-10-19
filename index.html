@@ -107,7 +107,17 @@ $(document).ready(function () {
 </script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    
+    <script type="text/javascript">
+        // Only fires when document is loaded, attaching callback to window
+window.onload = function(){
+
+    // Gets element with id "header", and stores its height in variable
+    var headerH = document.getElementById("header").offsetHeight;
+
+    // Uses height to set margin-top of the content wrapper, which has id "wrapper"
+    document.getElementById("wrapper").style.marginTop = headerH + "px";
+};
+    </script>
 
 </body>
 
