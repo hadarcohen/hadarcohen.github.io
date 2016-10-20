@@ -25,11 +25,17 @@ h6 {
 p {
     font-size: 1.25em;
     line-height: 2;
+    text-transform: lowercase;
 }
 
 b {
     font-weight: 800;
 
+}
+
+.row li {
+    font-size: 1.25em;
+    line-height: 2;
 }
 
 
@@ -169,16 +175,17 @@ width:300px;
     width: 250px;
     height: auto;
     display: inline;
-    float: left;
-    margin-right: 4%;
+    float: right;
+    margin-left: 4%;
+
 }
 
 .values {
-    padding-top: 5%;    
-    padding-bottom: 5%;
-    width: 450px;
-     display: inline;
-    float: right;
+    margin-right: 4%;
+
+    width: 400px;
+    display: inline;
+    float: left;
 }
 .flower {
 position: absolute; 
@@ -188,7 +195,7 @@ height: 100%;
 }
 
 .intro {
-font-size: 20px;
+font-size: 16px;
     font-weight: bold;
     left: 80px;
     right: 80px;
