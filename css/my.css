@@ -209,7 +209,19 @@ font-size: 16px;
 
 }
 
+.icon {
+height: 30px;
+margin-right: 2%;
+}
 
+.icon2 {
+width: 25px;
+margin-right: 2%;
+}
+
+.icon3 {
+   margin-right: 2%;
+   height:35px; 
 }
 #footer {
     padding: 50px 0;
