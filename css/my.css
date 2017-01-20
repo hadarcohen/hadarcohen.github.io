@@ -1,0 +1,269 @@
+/* Links */
+a,
+a:focus,
+a:hover {
+    color: #650038;
+
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+
+  height: 100%;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #650038;
+
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  position:relative;
+
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #650038;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #650038;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: none;
+}
+
+.navbar-collapse {
+  border-top: none;
+}
+/*
+ * Header
+ */
+
+ .header {
+  margin-top: 2%;
+ }
+
+.brand {
+    font-size: 48px;
+    margin-left: 3%;
+    float:left;
+    clear: none;
+ }
+
+ .brand a {
+   text-decoration: none;
+   color: #650038;
+ }
+
+ .row {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header nav {
+    letter-spacing: 0.1em;
+
+}
+
+
+
+.navbar-default {
+  background-color: white;
+  border: none;
+}
+
+.header nav ul li {
+    padding-left: 2%;
+    display: inline;
+}
+
+
+li a{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #650038;
+}
+
+li a:hover {
+    background-color: #f2725a;
+    color: #650038;
+     text-decoration: none;
+     padding: 0.5%;
+}
+
+ul {
+    padding-top:2%;
+    margin-right:3%;
+    text-align: right;
+}
+
+
+/*
+ * Container
+ */
+
+.content {
+  margin-left: 8%;
+  margin-right: 8%;
+  letter-spacing: 0.1em;
+  padding:10px;
+  padding-bottom:100px; 
+
+}
+
+.content a{
+  text-decoration: underline;
+}
+
+.content p {
+  font-size: 16px;
+  text-transform: lowercase;
+}
+
+.content  li {
+   font-size: 16px;
+padding-left: 5%;
+}
+.pivot {
+    width: 100%;
+    height: auto;
+}
+
+.intro {
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.hadar {
+height: 400px;
+}
+
+.pie {
+  height: 200px;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rumi {
+      width: 250px;
+    height: auto;
+    display: inline;
+    float: right;
+    margin-left: 4%;
+
+}
+
+.image{
+    float:left;
+    clear: right;
+    padding-right: 4%;
+}
+
+
+.image_text {
+    text-align: left;
+    padding-left: 4%;
+}
+
+.button {
+  background-color:#f2715a;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  display:inline-block;
+  cursor:pointer;
+  color:#650038;
+  font-size:20px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #650038;
+  margin-right: 3%;
+}
+
+.button:hover {
+  background-color:#650038;
+  color: #f2715a;
+}
+.button:active {
+  position:relative;
+  top:1px;
+  color: #f2715a;
+
+}
+
+.bottom {
+    padding-bottom: 10%;
+}
+/*
+ * Footer
+ */
+
+.foot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:100px;   /* Height of the footer */
+        padding-top: 3%;
+
+}   
+
+.footer_contents {
+    text-align: center;
+}
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .head {
+    position: fixed;
+    top: 0;
+  }
+  .foot {
+    position: fixed;
+    bottom: 0;
+  }
+
+  /* Handle the widths */
+  .head,
+  .foot {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .head,
+  .foot {
+    width: 700px;
+  }
+}
